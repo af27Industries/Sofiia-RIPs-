@@ -1,0 +1,194 @@
+{
+    "numDocumentoIdObligado": "1",
+    "numFactura": "2",
+    "TipoNota": "3",
+    "numNota": "4",
+    "usuarios": [
+        {
+            "tipoDocumentoIdentificacion": "5",
+            "numDocumentoIdentificacion": "6",
+            "tipoUsuario": "7",
+            "fechaNacimiento": "8",
+            "codSexo": "9",
+            "codPaisResidencia": "10",
+            "codMunicipioResidencia": "11",
+            "codZonaTerritorialResidencia": "12",
+            "incapacidad": "13",
+            "consecutivo": "14",
+            "codPaisOrigen": "15",
+            "servicios": {
+                "consultas": [
+                    {
+                        "codPrestador": "",
+                        "fechaInicioAtencion": "",
+                        "numAutorizacion": "",
+                        "codConsulta": "",
+                        "modalidadGrupoServicioTecSal": "",
+                        "grupoServicios": "",
+                        "codServicio": "",
+                        "finalidadTecnologiaSalud": "",
+                        "causaMotivoAtencion": "",
+                        "codDiagnosticoPrincipal": "",
+                        "codDiagnosticoRelacionado1": "",
+                        "codDiagnosticoRelacionado2": "null",
+                        "codDiagnosticoRelacionado3": "null",
+                        "tipoDiagnosticoPrincipal": "",
+                        "tipoDocumentoIdentificacion": "",
+                        "numDocumentoIdentificacion": "",
+                        "vrServicio": "",
+                        "conceptoRecaudo": "",
+                        "valorPagoModerador": "",
+                        "numFEVPagoModerador": "",
+                        "consecutivo": ""
+                    },
+                    {
+                        "codPrestador": "",
+                        "fechaInicioAtencion": "",
+                        "numAutorizacion": "",
+                        "codConsulta": "",
+                        "modalidadGrupoServicioTecSal": "",
+                        "grupoServicios": "",
+                        "codServicio": "",
+                        "finalidadTecnologiaSalud": "",
+                        "causaMotivoAtencion": "",
+                        "codDiagnosticoPrincipal": "",
+                        "codDiagnosticoRelacionado1": "",
+                        "codDiagnosticoRelacionado2": "null",
+                        "codDiagnosticoRelacionado3": "null",
+                        "tipoDiagnosticoPrincipal": "",
+                        "tipoDocumentoIdentificacion": "",
+                        "numDocumentoIdentificacion": "",
+                        "vrServicio": "",
+                        "conceptoRecaudo": "",
+                        "valorPagoModerador": "",
+                        "numFEVPagoModerador": "",
+                        "consecutivo": ""
+                    }
+                ],
+                "procedimientos": [
+                    {
+                        "codPrestador": "",
+                        "fechaInicioAtencion": "",
+                        "idMIPRES": "null",
+                        "numAutorizacion": "null",
+                        "codProcedimiento": "",
+                        "viaIngresoServicioSalud": "",
+                        "modalidadGrupoServicioTecSal": "",
+                        "grupoServicios": "",
+                        "codServicio": "",
+                        "finalidadTecnologiaSalud": "",
+                        "tipoDocumentoIdentificacion": "",
+                        "numDocumentoIdentificacion": "",
+                        "codDiagnosticoPrincipal": "",
+                        "codDiagnosticoRelacionado": "",
+                        "codComplicacion": "",
+                        "vrServicio": "",
+                        "conceptoRecaudo": "",
+                        "valorPagoModerador": "",
+                        "numFEVPagoModerador": "",
+                        "consecutivo": ""
+                    }
+                ],
+                "urgencias": [
+                    {
+                        "codPrestador": "",
+                        "fechaInicioAtencion": "",
+                        "causaMotivoAtencion": "",
+                        "codDiagnosticoPrincipal": "",
+                        "codDiagnosticoPrincipalE": "",
+                        "codDiagnosticoRelacionadoE1": "null",
+                        "codDiagnosticoRelacionadoE2": "null",
+                        "codDiagnosticoRelacionadoE3": "null",
+                        "condicionDestino": "",
+                        "codDiagnosticoCausaMuerte": "null",
+                        "fechaEgreso": "",
+                        "consecutivo": ""
+                    }
+                ],
+                "hospitalizacion": [
+                    {
+                        "codPrestador": "",
+                        "viaIngresoServicioSalud": "",
+                        "fechaInicioAtencion": "",
+                        "numAutorizacion": "",
+                        "causaMotivoAtencion": "",
+                        "codDiagnosticoPrincipal": "",
+                        "codDiagnosticoPrincipalE": "",
+                        "codDiagnosticoRelacionadoE1": "null",
+                        "codDiagnosticoRelacionadoE2": "null",
+                        "codDiagnosticoRelacionadoE3": "null",
+                        "codComplicacion": "null",
+                        "condicionDestinoUsuarioEgreso": "",
+                        "codDiagnosticoCausaMuerte": "null",
+                        "fechaEgreso": "",
+                        "consecutivo": ""
+                    }
+                ],
+                "recienNacidos": [
+                    {
+                        "codPrestador": "",
+                        "tipoDocumentoIdentificacion": "",
+                        "numDocumentoIdentificacion": "",
+                        "fechaNacimiento": "",
+                        "edadGestacional": "",
+                        "numConsultasCPrenatal": "",
+                        "codSexoBiologico": "",
+                        "peso": "",
+                        "codDiagnosticoPrincipal": "",
+                        "condicionDestinoUsuarioEgreso": "",
+                        "codDiagnosticoCausaMuerte": "",
+                        "fechaEgreso": "",
+                        "consecutivo": ""
+                    }
+                ],
+                "medicamentos": [
+                    {
+                        "codPrestador": "",
+                        "numAutorizacion": "",
+                        "idMIPRES": "",
+                        "fechaDispensAdmon": "",
+                        "codDiagnosticoPrincipal": "",
+                        "codDiagnosticoRelacionado": "",
+                        "tipoMedicamento": "",
+                        "codTecnologiaSalud": "",
+                        "nomTecnologiaSalud": "null",
+                        "concentracionMedicamento": "",
+                        "unidadMedida": "",
+                        "formaFarmaceutica": "",
+                        "unidadMinDispensa": "",
+                        "cantidadMedicamento": "",
+                        "diasTratamiento": "",
+                        "tipoDocumentoIdentificacion": "",
+                        "numDocumentoIdentificacion": "",
+                        "vrUnitMedicamento": "",
+                        "vrServicio": "",
+                        "conceptoRecaudo": "",
+                        "valorPagoModerador": "",
+                        "numFEVPagoModerador": "",
+                        "consecutivo": ""
+                    }
+                ],
+                "otrosServicios": [
+                    {
+                        "codPrestador": "16",
+                        "numAutorizacion": "17",
+                        "idMIPRES": "18",
+                        "fechaSuministroTecnologia": "19",
+                        "tipoOS": "20",
+                        "codTecnologiaSalud": "21",
+                        "nomTecnologiaSalud": "22",
+                        "cantidadOS": "23",
+                        "tipoDocumentoIdentificacion": "24",
+                        "numDocumentoIdentificacion": "25",
+                        "vrUnitOS": "26",
+                        "vrServicio": "27",
+                        "conceptoRecaudo": "28",
+                        "valorPagoModerador": "29",
+                        "numFEVPagoModerador": "30",
+                        "consecutivo": "31"
+                    }
+                ]
+            }
+        }
+    ]
+}
