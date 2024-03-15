@@ -3,7 +3,7 @@ import json
 
 
 # Ruta al archivo Excel
-archivo_excel = "/Users/admin/Desktop/SOFIIA/Sofiia-RIPs-/venv/Excel4Rips.xlsx"
+archivo_excel = "C:/Users/Edwar/Documents/proyectosPython/Sofiia-RIPs-/venv/Excel4Rips.xlsx"
 
 # Leer el archivo Excel
 datos_excel = pd.read_excel(archivo_excel)
@@ -402,7 +402,7 @@ json_data = {
 
 
 # Specify the file path where you want to save the JSON file
-file_path = "/Users/admin/Desktop/SOFIIA//Sofiia-RIPs-/venv/example.json"
+file_path = "C:/Users/Edwar/Documents/proyectosPython/Sofiia-RIPs-/venv/example.json"
 
 # Write the data to the JSON file
 with open(file_path, 'w') as json_file:
