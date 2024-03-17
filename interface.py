@@ -237,9 +237,21 @@ def on_button2_click():
     print("Botón 2 clickeado")
     generar_json(entry_path.get())
 
+def salir_pantalla_completa(event=None):
+        root.attributes('-fullscreen', False)
+        root.quit()
+
+   
+
 # Configuración de la ventana principal
 root = tk.Tk()
-root.geometry("400x200")
+#root.attributes('-fullscreen',True)
+ # Salir de la pantalla completa con un clic en un botón
+#button = tk.Button(root, text="Salir de pantalla completa", command=salir_pantalla_completa)
+#button.pack()
+root.resizable(height = None, width = None)
+root.geometry("800x600")
+
 root.title("Generar JSON desde Excel")
 
 
