@@ -220,7 +220,10 @@ def generar_json(ruta_archivo):
     with open(file_path, 'w') as json_file:
         json.dump(json_data, json_file, indent=4)
 
-    print(f"JSON data has been saved to {file_path}")
+   
+    
+    label.config(text=f"Se ha creado un JSON: {file_path}")
+    print(f"Se ha creado un JSON en: {file_path}")
 
 def on_button1_click():
     ruta_archivo = obtener_ruta_archivo()
@@ -268,6 +271,10 @@ entry_path.pack(pady=5)
 
 button2 = tk.Button(root, text="Generar JSON", command=on_button2_click)
 button2.pack(pady=5)
+
+#colocar el label aquí
+label = tk.Label(root)
+label.pack()
 
 # Ejecutar el bucle principal de la interfaz gráfica
 root.mainloop()
